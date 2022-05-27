@@ -21,6 +21,7 @@ html{
     /*background: crimson;*/
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    background-color: green;
 }
 .navbar.sticky{
     padding: 30px 0;
@@ -34,7 +35,7 @@ html{
 
 
 .navbar .logo a{
-    color: rgb(180, 31, 118);
+    color: RGB(0, 155, 119)
     font-size: 35px;
     font-weight: 600;
 }
@@ -51,12 +52,13 @@ html{
     color: black ;
     font-size: 30px;
     font-weight: 800;
-    margin-left: 25px;
+    margin-left: 20px;
     transition: color 0.3 ease;
 
 }
 .navbar .menu li a:hover{
-    color: rgb(20, 220, 80);
+    /*color: rgb(20, 220, 80);*/
+    color: white;
 }
 .navbar.sticky .menu li a:hover{
     color: rgb(255, 255, 255);
@@ -94,9 +96,10 @@ html{
 
 .home{
     display: flex;
-    background: url("Images/bann1.jpg") no-repeat center;
+    background: url("Images/slider-bg1.jpg") no-repeat center;
     height: 100vh;
-    color: rgb(57, 17, 121);
+   /* color: rgb(57, 17, 121);*/
+   color: white;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -104,7 +107,7 @@ html{
     margin: auto 0 auto 40px;
 }
 .home .home-content .text-1{
- font-size: 27px;
+ font-size: 32px;
 }
 .home .home-content .text-2{
  font-size: 36px;
@@ -123,7 +126,7 @@ html{
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: white;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
